@@ -129,29 +129,29 @@ def main():
     
     ########################################
     
-    # t-interval [t_min,t_max] with step size h
-    t_min, t_max, h = 0, 55.501762, 0.00001    
+    ## t-interval [t_min,t_max] with step size h
+    #t_min, t_max, h = 0, 55.501762, 0.00001    
     
-    name = "Yarn"
-    p1, p2 = 0.559064, 0.349192
+    #name = "Yarn"
+    #p1, p2 = 0.559064, 0.349192
     
-    # Initial positions
-    r_1_x, r_1_y, r_1_z = -1, 0, 0
-    r_2_x, r_2_y, r_2_z = 1, 0, 0
-    r_3_x, r_3_y, r_3_z = 0, 0, 0
+    ## Initial positions
+    #r_1_x, r_1_y, r_1_z = -1, 0, 0
+    #r_2_x, r_2_y, r_2_z = 1, 0, 0
+    #r_3_x, r_3_y, r_3_z = 0, 0, 0
     
-    # Initial velocities
-    v_1_x, v_1_y, v_1_z = p1, p2, 0
-    v_2_x, v_2_y, v_2_z = p1, p2, 0
-    v_3_x, v_3_y, v_3_z = -2 * p1, -2 * p2, 0
+    ## Initial velocities
+    #v_1_x, v_1_y, v_1_z = p1, p2, 0
+    #v_2_x, v_2_y, v_2_z = p1, p2, 0
+    #v_3_x, v_3_y, v_3_z = -2 * p1, -2 * p2, 0
     
     ########################################
     
     ## t-interval [t_min,t_max] with step size h
-    #t_min, t_max, h = 0, 40, 0.000001    
+    #t_min, t_max, h = 0, 10.466818, 0.0001    
     
-    #name = "BUTTERFLY IV"
-    #p1, p2 = 0.350112, 0.079339
+    #name = "GOGGLES"
+    #p1, p2 = 0.083300, 0.127889
     
     ## Initial positions
     #r_1_x, r_1_y, r_1_z = -1, 0, 0
@@ -164,6 +164,23 @@ def main():
     #v_3_x, v_3_y, v_3_z = -2 * p1, -2 * p2, 0
 
     ########################################
+    
+    # t-interval [t_min,t_max] with step size h
+    t_min, t_max, h = 0, 5.095054, 0.00001    
+    
+    name = "Skinny pineapple"
+    
+    # Initial positions
+    r_1_x, r_1_y, r_1_z = 0.419698802831, 1.190466261252, 0
+    r_2_x, r_2_y, r_2_z = 0.076399621771, 0.296331688995, 0
+    r_3_x, r_3_y, r_3_z = 0.100310663856, -0.729358656127, 0
+    
+    # Initial velocities
+    v_1_x, v_1_y, v_1_z = 0.102294566003, 0.687248445943, 0
+    v_2_x, v_2_y, v_2_z = 0.148950262064, 0.240179781043, 0
+    v_3_x, v_3_y, v_3_z = -0.251244828060, -0.927428226977, 0
+
+    ########################################    
     
     # number of iterations
     n = int((t_max - t_min) / h) + 1
